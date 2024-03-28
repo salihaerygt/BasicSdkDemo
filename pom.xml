@@ -13,12 +13,31 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-<dependencies>
-    <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-java</artifactId>
-        <version>6.1.1</version>
-        <scope>test</scope>
-    </dependency>
-</dependencies>
+    <dependencies>
+        <!-- Cucumber dependencies -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>6.1.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>6.1.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>7.16.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>gherkin</artifactId>
+            <version>15.0.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
